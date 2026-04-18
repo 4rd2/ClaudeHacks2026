@@ -78,10 +78,41 @@
 
 ## Traceability
 
-| Phase | Requirements Covered |
-|-------|---------------------|
-| Phase 1: Foundation & Data | DATA-01, DATA-02, DATA-03, VECTOR-01, VECTOR-02 |
-| Phase 2: Agent System | AGENTS-01, AGENTS-02, AGENTS-03, AGENTS-04, AGENTS-05, AGENTS-06, AGENTS-07, CONFLICT-01, CONFLICT-02, CONFLICT-03, CONFLICT-04, AUDIT-01, AUDIT-02, AUDIT-03, AUDIT-04 |
-| Phase 3: API Layer | API-01, API-02, API-03, API-04, API-05, VECTOR-03, VECTOR-04, VECTOR-05 |
-| Phase 4: Frontend | UI-01, UI-02, UI-03, UI-04, UI-05, UI-06, UI-07, UI-08 |
-| Phase 5: Integration & Demo Hardening | DATA-03 (tuning), AGENTS-07 (fallback hardening), all end-to-end |
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| DATA-01 | Phase 1: Foundation & Data | Pending |
+| DATA-02 | Phase 1: Foundation & Data | Pending |
+| DATA-03 | Phase 1: Foundation & Data (initial); Phase 4: Polish & Demo Hardening (tuning) | Pending |
+| VECTOR-01 | Phase 1: Foundation & Data | Pending |
+| VECTOR-02 | Phase 1: Foundation & Data | Pending |
+| VECTOR-03 | Phase 3: Integration | Pending |
+| VECTOR-04 | Phase 3: Integration | Pending |
+| VECTOR-05 | Phase 3: Integration | Pending |
+| AGENTS-01 | Phase 2: Core Agents | Pending |
+| AGENTS-02 | Phase 2: Core Agents | Pending |
+| AGENTS-03 | Phase 2: Core Agents | Pending |
+| AGENTS-04 | Phase 2: Core Agents | Pending |
+| AGENTS-05 | Phase 2: Core Agents | Pending |
+| AGENTS-06 | Phase 2: Core Agents | Pending |
+| AGENTS-07 | Phase 2: Core Agents (impl); Phase 4: Polish & Demo Hardening (hardening) | Pending |
+| CONFLICT-01 | Phase 2: Core Agents | Pending |
+| CONFLICT-02 | Phase 2: Core Agents | Pending |
+| CONFLICT-03 | Phase 2: Core Agents | Pending |
+| CONFLICT-04 | Phase 2: Core Agents | Pending |
+| AUDIT-01 | Phase 2: Core Agents | Pending |
+| AUDIT-02 | Phase 2: Core Agents | Pending |
+| AUDIT-03 | Phase 2: Core Agents | Pending |
+| AUDIT-04 | Phase 2: Core Agents | Pending |
+| API-01 | Phase 3: Integration | Pending |
+| API-02 | Phase 3: Integration | Pending |
+| API-03 | Phase 3: Integration | Pending |
+| API-04 | Phase 3: Integration | Pending |
+| API-05 | Phase 3: Integration | Pending |
+| UI-01 | Phase 3: Integration | Pending |
+| UI-02 | Phase 3: Integration | Pending |
+| UI-03 | Phase 3: Integration | Pending |
+| UI-04 | Phase 3: Integration | Pending |
+| UI-05 | Phase 3: Integration | Pending |
+| UI-06 | Phase 3: Integration | Pending |
+| UI-07 | Phase 3: Integration | Pending |
+| UI-08 | Phase 3: Integration | Pending |
