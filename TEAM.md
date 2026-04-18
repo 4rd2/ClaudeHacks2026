@@ -12,12 +12,12 @@
 | **Phase 1** (Hours 0–4) | ✅ Done | ✅ Done | ✅ Done |
 | **Phase 2** (Hours 4–10) | ✅ Done | ✅ Done | ✅ Done |
 | **Phase 3** (Hours 10–16) | ✅ Done | — | ✅ Done |
-| **Phase 4** (Hours 16–22) | ⬜ Not started | 🔄 In progress (offline sim 3/4 queries exact; preference prompt sharpened; live retune needed with ANTHROPIC_API_KEY) | ⬜ Not started |
+| **Phase 4** (Hours 16–22) | ✅ Done | 🔄 In progress (offline sim 3/4 queries exact; preference prompt sharpened; live retune needed with ANTHROPIC_API_KEY) | ⬜ Not started |
 | **Phase 5** (Hours 22–24) | ⬜ Not started | — | — |
 
 **Legend:** ⬜ Not started · 🔄 In progress · ✅ Done · ❌ Blocked (note reason)
 
-**Last updated:** 2026-04-18 — B Phase 4 offline simulation: Q1 (XM4 #1), Q2 (Bose #1), Q4 (Bose #5) match exactly; Q3 retrieves premium audio-dominant set in top 5 (XM5 present, #1 varies without LLM re-rank). Sharpened preference.py prompt to emit negative deltas on focused queries.
+**Last updated:** 2026-04-18 — A Phase 4 ✅ (FAISS fallback, 14/14 tests passing). B Phase 4 🔄 (offline sim 3/4 queries exact, preference prompt sharpened, live retune pending API key).
 
 ---
 

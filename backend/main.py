@@ -29,7 +29,16 @@ async def recommend(req: QueryRequest):
             if k in ATTRIBUTE_KEYS:
                 idx = ATTRIBUTE_KEYS.index(k)
                 preference_state[idx] = max(0.0, min(1.0, preference_state[idx] + v))
-    candidates = query_index(INDEX, PRODUCTS, preference_state, top_k=5)
+    try:
+        candidates = query_index(INDEX, PRODUCTS, preference_state, top_k=5)
+    except Exception:
+        # FAISS fallback: linear scan by attribute sum
+        scored = []
+        for p in PRODUCTS:
+            attr_sum = sum(p["attributes"].get(k, 0) * w for k, w in zip(ATTRIBUTE_KEYS, preference_state))
+            scored.append((p, attr_sum))
+        scored.sort(key=lambda x: x[1], reverse=True)
+        candidates = scored[:5]
     chains = list(await asyncio.gather(*[evaluate_product(p, req.message) for p, _ in candidates]))
     chains = sorted(chains, key=lambda c: (c.audit_passed, c.final_score), reverse=True)
     for i, c in enumerate(chains):
