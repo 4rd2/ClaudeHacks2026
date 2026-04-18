@@ -43,7 +43,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Bias Detector runs both deterministic checks and an LLM adversarial attempt, returning merged flags
   4. When score spread across the 3 scoring agents exceeds 2.5, conflicting values appear side-by-side (not blended) in the output
   5. A failed adversarial attack (bias score < 4) is reported as a positive trust signal; an agent failure returns a degraded result with AGENT_UNAVAILABLE, never a crash
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 02-01-PLAN.md — Fix agent SYSTEM prompts to TEAM.md canonical + create Wave 0 test scaffold
+- [ ] 02-02-PLAN.md — Verify orchestrator completeness + write test_orchestrator.py (conflict/audit/parallelism)
 
 ### Phase 3: Integration
 **Goal**: A user typing a query or moving a slider sees re-ranked headphones with full reasoning chains drawn from the live API
@@ -88,7 +91,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Data | 0/? | Not started | - |
-| 2. Core Agents | 0/? | Not started | - |
+| 2. Core Agents | 0/2 | Planned | - |
 | 3. Integration | 0/? | Not started | - |
 | 4. Polish & Demo Hardening | 0/? | Not started | - |
 | 5. Final | 0/? | Not started | - |
