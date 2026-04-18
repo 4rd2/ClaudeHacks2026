@@ -11,13 +11,13 @@
 |-------|-------------------|-------------------|---------------------|
 | **Phase 1** (Hours 0–4) | ✅ Done | ✅ Done | ✅ Done |
 | **Phase 2** (Hours 4–10) | ✅ Done | ✅ Done | ✅ Done |
-| **Phase 3** (Hours 10–16) | ⬜ Not started | — | ✅ Done |
-| **Phase 4** (Hours 16–22) | ⬜ Not started | ⬜ Not started (requires live /recommend; blocked on A Phase 3) | ⬜ Not started |
+| **Phase 3** (Hours 10–16) | ✅ Done | — | ✅ Done |
+| **Phase 4** (Hours 16–22) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
 | **Phase 5** (Hours 22–24) | ⬜ Not started | — | — |
 
 **Legend:** ⬜ Not started · 🔄 In progress · ✅ Done · ❌ Blocked (note reason)
 
-**Last updated:** 2026-04-18 — A Phase 2 ✅ (11/11 tests passing). C Phase 3 ✅ (hook wired, sliders live, skeletons, reset). Waiting on A Phase 3 (/recommend endpoint) for smoke test.
+**Last updated:** 2026-04-18 — A Phase 3 ✅ (full /recommend + /reset endpoints, FAISS retrieval, 20 products loaded, all 3 routes 200 OK). C Phase 3 ✅. B unblocked for Phase 4.
 
 ---
 
