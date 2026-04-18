@@ -10,14 +10,14 @@
 | Phase | Person A — Backend | Person B — Data/ML | Person C — Frontend |
 |-------|-------------------|-------------------|---------------------|
 | **Phase 1** (Hours 0–4) | ✅ Done | ✅ Done | ⬜ Not started |
-| **Phase 2** (Hours 4–10) | ⬜ Not started | 🔄 In progress (index.py + preference.py done; bias_detector.py next now that agent_types.py is on main) | ⬜ Not started |
-| **Phase 3** (Hours 10–16) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
-| **Phase 4** (Hours 16–22) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
+| **Phase 2** (Hours 4–10) | ⬜ Not started | ✅ Done | ⬜ Not started |
+| **Phase 3** (Hours 10–16) | ⬜ Not started | — | ⬜ Not started |
+| **Phase 4** (Hours 16–22) | ⬜ Not started | ⬜ Not started (requires live /recommend; blocked on A Phase 3) | ⬜ Not started |
 | **Phase 5** (Hours 22–24) | ⬜ Not started | — | — |
 
 **Legend:** ⬜ Not started · 🔄 In progress · ✅ Done · ❌ Blocked (note reason)
 
-**Last updated:** 2026-04-18 — A Phase 1 ✅ (scaffold, agent_types.py, base.py, agent stubs, orchestrator, health). B Phase 1 ✅ (products.json 20 items) and Phase 2 partial (index.py, preference.py)
+**Last updated:** 2026-04-18 — B Phase 2 ✅ (bias_detector.py now that A's agent_types.py landed). All four B modules on main: products.json, index.py, preference.py, bias_detector.py. Rule-based flags verified: Bose→source concentration, Skullcandy→score/sentiment divergence.
 
 ---
 
