@@ -17,7 +17,12 @@ client = anthropic.Anthropic()
 SYSTEM_PROMPT = """Extract preference changes from user messages about headphones.
 Return ONLY a JSON object with keys from: price_sensitivity, sound_quality, comfort, battery_life, portability, noise_cancellation.
 Values are deltas: positive = more important, negative = less important. Range: -0.3 to +0.3.
-Only include keys the message explicitly implies should change. If no change, return {}."""
+
+Rules:
+- Include a positive delta for every attribute the message explicitly emphasizes.
+- Include a negative delta for every attribute the message explicitly de-emphasizes (e.g. "price doesn't matter" → price_sensitivity -0.3).
+- When the message expresses STRONG focus on one attribute (phrasings like "best X", "only care about X", "X above all"), also emit modest negative deltas (-0.15) on the attributes NOT mentioned, so the preference vector sharpens around the focus.
+- If the message implies no change, return {}."""
 
 
 async def extract_preference_delta(message, current_vector):
