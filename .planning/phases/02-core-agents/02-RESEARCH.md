@@ -369,22 +369,22 @@ Security enforcement applies. For this phase:
 | A2 | Exact installed versions of anthropic, fastapi, pydantic are current/compatible | Standard Stack | API breaking changes possible; verify with `pip show anthropic` |
 | A3 | ANTHROPIC_API_KEY is configured in .env | Environment Availability | All Claude API calls fail; critical blocker |
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **Are the existing SYSTEM prompts in price/specs/review stubs sufficient, or must they match TEAM.md exactly?**
    - What we know: The stubs have slightly different wording from TEAM.md
    - What's unclear: Whether the LLM behavior meaningfully differs between the versions
-   - Recommendation: Use TEAM.md wording exactly for consistency and predictability; the canonical spec is TEAM.md
+   - RESOLVED: Use TEAM.md wording exactly for consistency and predictability. Plan 02-01 Task 1 implements the canonical prompts verbatim.
 
 2. **Is Person B's products.json available yet?**
    - What we know: Per STATUS TRACKER, Person B's Phase 2 is "Not started" as of 2026-04-18
    - What's unclear: Whether Person B has pushed partial data
-   - Recommendation: Person A should implement agents using a hardcoded TEST_PRODUCT dict and validate fully before waiting on Person B
+   - RESOLVED: Person A implements agents using a hardcoded TEST_PRODUCT dict in conftest.py (Plan 02-01 Task 2). Full pipeline validation does not depend on Person B's data.
 
 3. **Should `audit_passed` use `bias.score < 6` or `bias.score < 4`?**
    - What we know: orchestrator.py uses `< 6` for audit_passed; AUDIT-03 says `< 4` is a "positive trust signal"
    - What's unclear: Whether < 4 is a sub-condition of audit_passed or just an audit_note distinction
-   - Recommendation: AUDIT-02 in requirements says "bias detector score < 6" for audit_passed; AUDIT-03 says score < 4 is reported as positive trust signal in the audit_note. The existing orchestrator.py implementation is correct — these are two separate concepts.
+   - RESOLVED: These are two separate concepts. AUDIT-02: `audit_passed = True` when bias score < 6. AUDIT-03: score < 4 triggers a positive trust signal in audit_note. The existing orchestrator.py is correct and tested separately in test_audit_passed_logic (Cases A, B, C).
 
 ## Sources
 
