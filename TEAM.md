@@ -9,7 +9,7 @@
 
 | Phase | Person A — Backend | Person B — Data/ML | Person C — Frontend |
 |-------|-------------------|-------------------|---------------------|
-| **Phase 1** (Hours 0–4) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
+| **Phase 1** (Hours 0–4) | ✅ Done | ⬜ Not started | ⬜ Not started |
 | **Phase 2** (Hours 4–10) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
 | **Phase 3** (Hours 10–16) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
 | **Phase 4** (Hours 16–22) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
@@ -17,7 +17,7 @@
 
 **Legend:** ⬜ Not started · 🔄 In progress · ✅ Done · ❌ Blocked (note reason)
 
-**Last updated:** 2026-04-18 — initial setup, ready to build
+**Last updated:** 2026-04-18 — Person A Phase 1 complete: scaffold, agent_types.py, base.py, price/specs/review agents, orchestrator stub, health endpoint
 
 ---
 
