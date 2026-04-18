@@ -45,8 +45,8 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. A failed adversarial attack (bias score < 4) is reported as a positive trust signal; an agent failure returns a degraded result with AGENT_UNAVAILABLE, never a crash
 **Plans**: 2 plans
 Plans:
-- [ ] 02-01-PLAN.md — Fix agent SYSTEM prompts to TEAM.md canonical + create Wave 0 test scaffold
-- [ ] 02-02-PLAN.md — Verify orchestrator completeness + write test_orchestrator.py (conflict/audit/parallelism)
+- [x] 02-01-PLAN.md — Fix agent SYSTEM prompts to TEAM.md canonical + create Wave 0 test scaffold
+- [x] 02-02-PLAN.md — Verify orchestrator completeness + write test_orchestrator.py (conflict/audit/parallelism)
 
 ### Phase 3: Integration
 **Goal**: A user typing a query or moving a slider sees re-ranked headphones with full reasoning chains drawn from the live API
