@@ -10,14 +10,14 @@
 | Phase | Person A — Backend | Person B — Data/ML | Person C — Frontend |
 |-------|-------------------|-------------------|---------------------|
 | **Phase 1** (Hours 0–4) | ✅ Done | ✅ Done | ✅ Done |
-| **Phase 2** (Hours 4–10) | ⬜ Not started | ✅ Done | ⬜ Not started |
+| **Phase 2** (Hours 4–10) | ⬜ Not started | ✅ Done | ✅ Done |
 | **Phase 3** (Hours 10–16) | ⬜ Not started | — | ⬜ Not started |
 | **Phase 4** (Hours 16–22) | ⬜ Not started | ⬜ Not started (requires live /recommend; blocked on A Phase 3) | ⬜ Not started |
 | **Phase 5** (Hours 22–24) | ⬜ Not started | — | — |
 
 **Legend:** ⬜ Not started · 🔄 In progress · ✅ Done · ❌ Blocked (note reason)
 
-**Last updated:** 2026-04-18 — A Phase 1 ✅, B Phase 1+2 ✅, C Phase 1 ✅. All four B modules on main: products.json, index.py, preference.py, bias_detector.py. C: Vite+React+Tailwind scaffolded, all 6 component stubs wired into App.tsx
+**Last updated:** 2026-04-18 — C Phase 2 ✅. types.ts matches backend schema; ReasoningDrawer, ConflictBadge, ProductCard rebuilt with real prop-driven logic and realistic mock data. Wiring the API in Phase 3 is a data swap only.
 
 ---
 
