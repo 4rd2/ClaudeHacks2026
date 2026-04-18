@@ -12,12 +12,12 @@
 | **Phase 1** (Hours 0–4) | ✅ Done | ✅ Done | ✅ Done |
 | **Phase 2** (Hours 4–10) | ✅ Done | ✅ Done | ✅ Done |
 | **Phase 3** (Hours 10–16) | ✅ Done | — | ✅ Done |
-| **Phase 4** (Hours 16–22) | ✅ Done | 🔄 In progress (offline sim 3/4 queries exact; preference prompt sharpened; live retune needed with ANTHROPIC_API_KEY) | ⬜ Not started |
+| **Phase 4** (Hours 16–22) | ✅ Done | ❌ Blocked on Anthropic account credits (key works, balance $0 → every LLM call returns 400, all agents fall through to AGENT_UNAVAILABLE). Offline sim: 3/4 queries exact; preference prompt sharpened. Rule-based bias flags verified live (Bose source concentration surfaces on Q4). | ⬜ Not started |
 | **Phase 5** (Hours 22–24) | ⬜ Not started | — | — |
 
 **Legend:** ⬜ Not started · 🔄 In progress · ✅ Done · ❌ Blocked (note reason)
 
-**Last updated:** 2026-04-18 — A Phase 4 ✅ (FAISS fallback, 14/14 tests passing). B Phase 4 🔄 (offline sim 3/4 queries exact, preference prompt sharpened, live retune pending API key).
+**Last updated:** 2026-04-18 — B ran the 4 demo queries against live /recommend. API key valid but account credits exhausted → all LLM agents return AGENT_UNAVAILABLE; preference extractor cannot shift state. FAISS retrieval, /health, /recommend/reset, and rule-based bias flags all verified live. Phase 4 attribute tuning blocked until credits added (console.anthropic.com/settings/billing) — once restored, rerun `ANTHROPIC_API_KEY=<new_key> uvicorn backend.main:app` and hit the 4 queries. Shared key should be rotated; it's in the conversation log.
 
 ---
 
