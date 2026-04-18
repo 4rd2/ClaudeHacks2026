@@ -1,0 +1,582 @@
+[
+  {
+    "id": "sony-wh1000xm5",
+    "name": "Sony WH-1000XM5",
+    "price": 279,
+    "specs": {
+      "noise_cancellation": 9.5,
+      "sound_quality": 9.2,
+      "battery_hours": 30,
+      "weight_grams": 250,
+      "driver_size_mm": 30
+    },
+    "attributes": {
+      "price_sensitivity": 0.4,
+      "sound_quality": 0.92,
+      "comfort": 0.61,
+      "battery_life": 0.90,
+      "portability": 0.72,
+      "noise_cancellation": 0.95
+    },
+    "review_data": {
+      "aggregate_score": 4.6,
+      "sentiment_score": 0.71,
+      "review_count": 18420,
+      "source_distribution": {"amazon": 0.42, "rtings": 0.31, "reddit": 0.27},
+      "top_complaints": ["ear cup pressure after 2h", "touch controls oversensitive", "clamp fatigue during long sessions"],
+      "top_praises": ["best ANC available", "excellent call quality", "long battery"]
+    },
+    "affiliate_link_density": 0.34
+  },
+  {
+    "id": "bose-qc45",
+    "name": "Bose QuietComfort 45",
+    "price": 329,
+    "specs": {
+      "noise_cancellation": 9.0,
+      "sound_quality": 8.4,
+      "battery_hours": 24,
+      "weight_grams": 240,
+      "driver_size_mm": 32
+    },
+    "attributes": {
+      "price_sensitivity": 0.35,
+      "sound_quality": 0.78,
+      "comfort": 0.88,
+      "battery_life": 0.78,
+      "portability": 0.68,
+      "noise_cancellation": 0.89
+    },
+    "review_data": {
+      "aggregate_score": 4.5,
+      "sentiment_score": 0.74,
+      "review_count": 22810,
+      "source_distribution": {"amazon": 0.62, "rtings": 0.22, "reddit": 0.16},
+      "top_complaints": ["plasticky build", "no multipoint on older firmware"],
+      "top_praises": ["all-day comfort", "proven ANC", "clear calls"]
+    },
+    "affiliate_link_density": 0.47
+  },
+  {
+    "id": "apple-airpods-pro-2",
+    "name": "Apple AirPods Pro 2",
+    "price": 249,
+    "specs": {
+      "noise_cancellation": 8.7,
+      "sound_quality": 8.2,
+      "battery_hours": 6,
+      "weight_grams": 50,
+      "driver_size_mm": 11
+    },
+    "attributes": {
+      "price_sensitivity": 0.3,
+      "sound_quality": 0.80,
+      "comfort": 0.75,
+      "battery_life": 0.32,
+      "portability": 0.98,
+      "noise_cancellation": 0.86
+    },
+    "review_data": {
+      "aggregate_score": 4.7,
+      "sentiment_score": 0.76,
+      "review_count": 41230,
+      "source_distribution": {"amazon": 0.38, "rtings": 0.29, "reddit": 0.33},
+      "top_complaints": ["short battery life", "Apple-centric features", "ear fatigue in some sizes"],
+      "top_praises": ["seamless Apple integration", "great ANC for in-ear", "transparency mode"]
+    },
+    "affiliate_link_density": 0.31
+  },
+  {
+    "id": "sennheiser-hd-660s",
+    "name": "Sennheiser HD 660S",
+    "price": 499,
+    "specs": {
+      "noise_cancellation": 0.0,
+      "sound_quality": 9.7,
+      "battery_hours": 0,
+      "weight_grams": 260,
+      "driver_size_mm": 38
+    },
+    "attributes": {
+      "price_sensitivity": 0.25,
+      "sound_quality": 0.95,
+      "comfort": 0.82,
+      "battery_life": 0.0,
+      "portability": 0.2,
+      "noise_cancellation": 0.0
+    },
+    "review_data": {
+      "aggregate_score": 4.6,
+      "sentiment_score": 0.82,
+      "review_count": 3180,
+      "source_distribution": {"headfi": 0.48, "rtings": 0.24, "reddit": 0.28},
+      "top_complaints": ["requires a headphone amplifier", "open-back leaks sound"],
+      "top_praises": ["reference-tier soundstage", "audiophile detail", "natural timbre"]
+    },
+    "affiliate_link_density": 0.18
+  },
+  {
+    "id": "jabra-evolve2-85",
+    "name": "Jabra Evolve2 85",
+    "price": 449,
+    "specs": {
+      "noise_cancellation": 8.2,
+      "sound_quality": 7.6,
+      "battery_hours": 37,
+      "weight_grams": 290,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.3,
+      "sound_quality": 0.70,
+      "comfort": 0.74,
+      "battery_life": 0.96,
+      "portability": 0.55,
+      "noise_cancellation": 0.78
+    },
+    "review_data": {
+      "aggregate_score": 4.1,
+      "sentiment_score": 0.52,
+      "review_count": 6210,
+      "source_distribution": {"amazon": 0.44, "rtings": 0.23, "reddit": 0.33},
+      "top_complaints": ["voice-call tuning makes music thin", "bass lacks body", "heavy for travel"],
+      "top_praises": ["exceptional boom mic", "enterprise sidetone", "long battery"]
+    },
+    "affiliate_link_density": 0.26
+  },
+  {
+    "id": "sony-wh1000xm4",
+    "name": "Sony WH-1000XM4",
+    "price": 199,
+    "specs": {
+      "noise_cancellation": 9.2,
+      "sound_quality": 8.9,
+      "battery_hours": 30,
+      "weight_grams": 254,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.65,
+      "sound_quality": 0.87,
+      "comfort": 0.70,
+      "battery_life": 0.90,
+      "portability": 0.70,
+      "noise_cancellation": 0.91
+    },
+    "review_data": {
+      "aggregate_score": 4.5,
+      "sentiment_score": 0.74,
+      "review_count": 34950,
+      "source_distribution": {"amazon": 0.51, "rtings": 0.24, "reddit": 0.25},
+      "top_complaints": ["aging codec support", "plastic hinges"],
+      "top_praises": ["ANC near XM5 for $80 less", "great battery", "wide app support"]
+    },
+    "affiliate_link_density": 0.38
+  },
+  {
+    "id": "anker-soundcore-q45",
+    "name": "Anker Soundcore Space Q45",
+    "price": 79,
+    "specs": {
+      "noise_cancellation": 7.8,
+      "sound_quality": 7.4,
+      "battery_hours": 50,
+      "weight_grams": 290,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.95,
+      "sound_quality": 0.68,
+      "comfort": 0.67,
+      "battery_life": 0.99,
+      "portability": 0.68,
+      "noise_cancellation": 0.73
+    },
+    "review_data": {
+      "aggregate_score": 4.4,
+      "sentiment_score": 0.78,
+      "review_count": 12480,
+      "source_distribution": {"amazon": 0.54, "rtings": 0.18, "reddit": 0.28},
+      "top_complaints": ["LDAC drains battery fast", "app buggy on Android 13"],
+      "top_praises": ["shocking value", "50h battery", "acceptable ANC at $79"]
+    },
+    "affiliate_link_density": 0.52
+  },
+  {
+    "id": "skullcandy-crusher-evo",
+    "name": "Skullcandy Crusher Evo",
+    "price": 149,
+    "specs": {
+      "noise_cancellation": 3.2,
+      "sound_quality": 6.8,
+      "battery_hours": 40,
+      "weight_grams": 290,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.80,
+      "sound_quality": 0.60,
+      "comfort": 0.65,
+      "battery_life": 0.92,
+      "portability": 0.62,
+      "noise_cancellation": 0.30
+    },
+    "review_data": {
+      "aggregate_score": 4.3,
+      "sentiment_score": 0.58,
+      "review_count": 8940,
+      "source_distribution": {"amazon": 0.47, "rtings": 0.21, "reddit": 0.32},
+      "top_complaints": ["bass slider gimmicky, muddies mids", "no real ANC despite marketing", "squeaky hinges"],
+      "top_praises": ["powerful bass", "long battery", "fun V-shape tuning"]
+    },
+    "affiliate_link_density": 0.41
+  },
+  {
+    "id": "sennheiser-momentum-4",
+    "name": "Sennheiser Momentum 4 Wireless",
+    "price": 349,
+    "specs": {
+      "noise_cancellation": 8.5,
+      "sound_quality": 9.0,
+      "battery_hours": 60,
+      "weight_grams": 293,
+      "driver_size_mm": 42
+    },
+    "attributes": {
+      "price_sensitivity": 0.40,
+      "sound_quality": 0.90,
+      "comfort": 0.80,
+      "battery_life": 0.99,
+      "portability": 0.65,
+      "noise_cancellation": 0.82
+    },
+    "review_data": {
+      "aggregate_score": 4.4,
+      "sentiment_score": 0.75,
+      "review_count": 5710,
+      "source_distribution": {"amazon": 0.39, "rtings": 0.32, "reddit": 0.29},
+      "top_complaints": ["bulky case", "touch controls finicky"],
+      "top_praises": ["60h battery", "warm Sennheiser tuning", "aptX Adaptive"]
+    },
+    "affiliate_link_density": 0.29
+  },
+  {
+    "id": "jbl-tour-one-m2",
+    "name": "JBL Tour One M2",
+    "price": 299,
+    "specs": {
+      "noise_cancellation": 8.3,
+      "sound_quality": 8.1,
+      "battery_hours": 50,
+      "weight_grams": 278,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.50,
+      "sound_quality": 0.77,
+      "comfort": 0.72,
+      "battery_life": 0.97,
+      "portability": 0.66,
+      "noise_cancellation": 0.80
+    },
+    "review_data": {
+      "aggregate_score": 4.3,
+      "sentiment_score": 0.70,
+      "review_count": 3150,
+      "source_distribution": {"amazon": 0.49, "rtings": 0.22, "reddit": 0.29},
+      "top_complaints": ["EQ sounds artificial", "app nags with notifications"],
+      "top_praises": ["spatial audio decent", "long battery", "lightweight"]
+    },
+    "affiliate_link_density": 0.33
+  },
+  {
+    "id": "beats-studio-pro",
+    "name": "Beats Studio Pro",
+    "price": 299,
+    "specs": {
+      "noise_cancellation": 7.5,
+      "sound_quality": 7.8,
+      "battery_hours": 40,
+      "weight_grams": 260,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.45,
+      "sound_quality": 0.73,
+      "comfort": 0.68,
+      "battery_life": 0.93,
+      "portability": 0.71,
+      "noise_cancellation": 0.72
+    },
+    "review_data": {
+      "aggregate_score": 4.2,
+      "sentiment_score": 0.63,
+      "review_count": 9840,
+      "source_distribution": {"amazon": 0.58, "rtings": 0.19, "reddit": 0.23},
+      "top_complaints": ["bass-heavy mix", "clamp force on larger heads", "older Bluetooth chip"],
+      "top_praises": ["USB-C lossless", "iOS integration", "recognizable design"]
+    },
+    "affiliate_link_density": 0.44
+  },
+  {
+    "id": "bw-px8",
+    "name": "Bowers & Wilkins Px8",
+    "price": 699,
+    "specs": {
+      "noise_cancellation": 8.4,
+      "sound_quality": 9.4,
+      "battery_hours": 30,
+      "weight_grams": 320,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.15,
+      "sound_quality": 0.93,
+      "comfort": 0.70,
+      "battery_life": 0.90,
+      "portability": 0.55,
+      "noise_cancellation": 0.81
+    },
+    "review_data": {
+      "aggregate_score": 4.5,
+      "sentiment_score": 0.77,
+      "review_count": 1420,
+      "source_distribution": {"rtings": 0.38, "headfi": 0.37, "reddit": 0.25},
+      "top_complaints": ["heavy for long sessions", "premium price for modest ANC gain"],
+      "top_praises": ["luxurious build", "reference-grade sound", "leather finish"]
+    },
+    "affiliate_link_density": 0.22
+  },
+  {
+    "id": "technics-eah-a800",
+    "name": "Technics EAH-A800",
+    "price": 349,
+    "specs": {
+      "noise_cancellation": 8.6,
+      "sound_quality": 8.3,
+      "battery_hours": 50,
+      "weight_grams": 298,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.40,
+      "sound_quality": 0.80,
+      "comfort": 0.78,
+      "battery_life": 0.97,
+      "portability": 0.60,
+      "noise_cancellation": 0.83
+    },
+    "review_data": {
+      "aggregate_score": 4.3,
+      "sentiment_score": 0.69,
+      "review_count": 1820,
+      "source_distribution": {"amazon": 0.41, "rtings": 0.34, "reddit": 0.25},
+      "top_complaints": ["plasticky feel for the price", "app polish"],
+      "top_praises": ["excellent call clarity", "50h battery", "clean tuning"]
+    },
+    "affiliate_link_density": 0.27
+  },
+  {
+    "id": "shure-aonic-50",
+    "name": "Shure AONIC 50",
+    "price": 299,
+    "specs": {
+      "noise_cancellation": 7.2,
+      "sound_quality": 8.7,
+      "battery_hours": 20,
+      "weight_grams": 334,
+      "driver_size_mm": 50
+    },
+    "attributes": {
+      "price_sensitivity": 0.45,
+      "sound_quality": 0.86,
+      "comfort": 0.62,
+      "battery_life": 0.64,
+      "portability": 0.45,
+      "noise_cancellation": 0.68
+    },
+    "review_data": {
+      "aggregate_score": 4.2,
+      "sentiment_score": 0.68,
+      "review_count": 2140,
+      "source_distribution": {"headfi": 0.42, "amazon": 0.32, "reddit": 0.26},
+      "top_complaints": ["weighty", "ANC average for the price", "clamp force"],
+      "top_praises": ["studio-like tuning", "aptX HD", "robust build"]
+    },
+    "affiliate_link_density": 0.24
+  },
+  {
+    "id": "bo-beoplay-h95",
+    "name": "Bang & Olufsen Beoplay H95",
+    "price": 899,
+    "specs": {
+      "noise_cancellation": 8.1,
+      "sound_quality": 9.1,
+      "battery_hours": 38,
+      "weight_grams": 323,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.10,
+      "sound_quality": 0.91,
+      "comfort": 0.84,
+      "battery_life": 0.92,
+      "portability": 0.52,
+      "noise_cancellation": 0.78
+    },
+    "review_data": {
+      "aggregate_score": 4.4,
+      "sentiment_score": 0.73,
+      "review_count": 890,
+      "source_distribution": {"rtings": 0.41, "amazon": 0.31, "reddit": 0.28},
+      "top_complaints": ["ANC trails Sony/Bose", "luxury pricing for the performance", "heavy"],
+      "top_praises": ["anodized aluminum build", "lambskin ear cups", "warm musical tuning"]
+    },
+    "affiliate_link_density": 0.19
+  },
+  {
+    "id": "beats-solo-4",
+    "name": "Beats Solo 4",
+    "price": 199,
+    "specs": {
+      "noise_cancellation": 0.0,
+      "sound_quality": 7.2,
+      "battery_hours": 50,
+      "weight_grams": 217,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.60,
+      "sound_quality": 0.68,
+      "comfort": 0.55,
+      "battery_life": 0.99,
+      "portability": 0.82,
+      "noise_cancellation": 0.0
+    },
+    "review_data": {
+      "aggregate_score": 4.2,
+      "sentiment_score": 0.66,
+      "review_count": 2860,
+      "source_distribution": {"amazon": 0.53, "rtings": 0.17, "reddit": 0.30},
+      "top_complaints": ["no ANC at $199", "on-ear clamp", "dated design"],
+      "top_praises": ["USB-C lossless", "Apple integration", "50h battery"]
+    },
+    "affiliate_link_density": 0.40
+  },
+  {
+    "id": "master-dynamic-mw75",
+    "name": "Master & Dynamic MW75",
+    "price": 599,
+    "specs": {
+      "noise_cancellation": 7.8,
+      "sound_quality": 8.8,
+      "battery_hours": 32,
+      "weight_grams": 335,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.15,
+      "sound_quality": 0.87,
+      "comfort": 0.73,
+      "battery_life": 0.91,
+      "portability": 0.50,
+      "noise_cancellation": 0.74
+    },
+    "review_data": {
+      "aggregate_score": 4.3,
+      "sentiment_score": 0.71,
+      "review_count": 1340,
+      "source_distribution": {"headfi": 0.39, "amazon": 0.35, "reddit": 0.26},
+      "top_complaints": ["heavy on head", "ANC trails Sony", "price premium"],
+      "top_praises": ["luxurious materials", "rich tuning", "iconic aesthetic"]
+    },
+    "affiliate_link_density": 0.23
+  },
+  {
+    "id": "jabra-elite-45h",
+    "name": "Jabra Elite 45h",
+    "price": 99,
+    "specs": {
+      "noise_cancellation": 0.0,
+      "sound_quality": 6.9,
+      "battery_hours": 50,
+      "weight_grams": 160,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.90,
+      "sound_quality": 0.63,
+      "comfort": 0.60,
+      "battery_life": 0.99,
+      "portability": 0.88,
+      "noise_cancellation": 0.0
+    },
+    "review_data": {
+      "aggregate_score": 4.3,
+      "sentiment_score": 0.72,
+      "review_count": 5620,
+      "source_distribution": {"amazon": 0.48, "rtings": 0.23, "reddit": 0.29},
+      "top_complaints": ["on-ear fatigue", "no ANC", "plasticky"],
+      "top_praises": ["pocket-friendly", "50h battery", "great call quality"]
+    },
+    "affiliate_link_density": 0.37
+  },
+  {
+    "id": "jbl-live-770nc",
+    "name": "JBL Live 770NC",
+    "price": 129,
+    "specs": {
+      "noise_cancellation": 7.3,
+      "sound_quality": 7.2,
+      "battery_hours": 65,
+      "weight_grams": 255,
+      "driver_size_mm": 40
+    },
+    "attributes": {
+      "price_sensitivity": 0.85,
+      "sound_quality": 0.66,
+      "comfort": 0.66,
+      "battery_life": 0.99,
+      "portability": 0.70,
+      "noise_cancellation": 0.68
+    },
+    "review_data": {
+      "aggregate_score": 4.4,
+      "sentiment_score": 0.74,
+      "review_count": 4280,
+      "source_distribution": {"amazon": 0.56, "rtings": 0.20, "reddit": 0.24},
+      "top_complaints": ["bass-heavy default EQ", "app required for best tuning"],
+      "top_praises": ["65h battery", "strong value", "decent ANC at $129"]
+    },
+    "affiliate_link_density": 0.46
+  },
+  {
+    "id": "audio-technica-m50xbt2",
+    "name": "Audio-Technica ATH-M50xBT2",
+    "price": 179,
+    "specs": {
+      "noise_cancellation": 0.0,
+      "sound_quality": 8.5,
+      "battery_hours": 50,
+      "weight_grams": 307,
+      "driver_size_mm": 45
+    },
+    "attributes": {
+      "price_sensitivity": 0.70,
+      "sound_quality": 0.85,
+      "comfort": 0.64,
+      "battery_life": 0.99,
+      "portability": 0.55,
+      "noise_cancellation": 0.0
+    },
+    "review_data": {
+      "aggregate_score": 4.4,
+      "sentiment_score": 0.76,
+      "review_count": 4180,
+      "source_distribution": {"amazon": 0.40, "rtings": 0.27, "reddit": 0.33},
+      "top_complaints": ["clamp force on large heads", "no ANC", "touch controls sensitive"],
+      "top_praises": ["studio-reference tuning", "50h battery", "strong value for the sound"]
+    },
+    "affiliate_link_density": 0.31
+  }
+]

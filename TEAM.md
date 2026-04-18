@@ -9,15 +9,15 @@
 
 | Phase | Person A — Backend | Person B — Data/ML | Person C — Frontend |
 |-------|-------------------|-------------------|---------------------|
-| **Phase 1** (Hours 0–4) | ✅ Done | ⬜ Not started | ⬜ Not started |
-| **Phase 2** (Hours 4–10) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
+| **Phase 1** (Hours 0–4) | ✅ Done | ✅ Done | ⬜ Not started |
+| **Phase 2** (Hours 4–10) | ⬜ Not started | 🔄 In progress (index.py + preference.py done; bias_detector.py next now that agent_types.py is on main) | ⬜ Not started |
 | **Phase 3** (Hours 10–16) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
 | **Phase 4** (Hours 16–22) | ⬜ Not started | ⬜ Not started | ⬜ Not started |
 | **Phase 5** (Hours 22–24) | ⬜ Not started | — | — |
 
 **Legend:** ⬜ Not started · 🔄 In progress · ✅ Done · ❌ Blocked (note reason)
 
-**Last updated:** 2026-04-18 — Person A Phase 1 complete: scaffold, agent_types.py, base.py, price/specs/review agents, orchestrator stub, health endpoint
+**Last updated:** 2026-04-18 — A Phase 1 ✅ (scaffold, agent_types.py, base.py, agent stubs, orchestrator, health). B Phase 1 ✅ (products.json 20 items) and Phase 2 partial (index.py, preference.py)
 
 ---
 
